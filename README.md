@@ -74,7 +74,27 @@ ____
 
 ####Nodejs
 ```node
-let a = process.argv[2]
+// node app.js 1 2
+arg = process.argv
+let a = arg[2] 
+let b = arg[3]
+let out = a + ' ' + b
+
+console.log(out)           // 1 2
+
+if (a > b) {
+  console.log(a)
+} else {
+  console.log(b)
+}                           // 2
+
+let c = (a > b) ? a : b   
+console.log(c)              // 2
+```
+___
+###Operator if     
+__!!!BANG!!!__
+
 
 
 
