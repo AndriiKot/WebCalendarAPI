@@ -70,6 +70,24 @@ or
 ```ruby
 p a > b ? a : b     # "2"
 ```
+____
+
+####Nodejs
+```node
+let a = process.argv[2]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
