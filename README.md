@@ -94,6 +94,57 @@ console.log(c)              // 2
 ___
 ###Operator if     
 __!!!BANG!!!__
+___
+
+####Ruby
+
+```ruby
+#ruby app.rb 8 44444
+
+a,b = ARGV[0],ARGV[1]
+
+print a,' ', b ,"\n"              # "8" "44444"
+
+p (if a > b then  a else b end)   # !!! "8" !!!
+p a > b ? a : b                   # !!! "8" !!!
+p a.class    # String
+p b.class    # String
+
+```
+
+```ruby
+#ruby app.rb 8 44444
+a,b = ARGV[0].to_i,ARGV[1].to_i
+print a,' ', b ,"\n"              # 8 44444
+p a.class                         #Integer
+p b.class                         #Integer
+p a > b ? a : b                   # 44444
+
+```
+
+####Nodejs
+
+```node
+// node app.js 8 44444
+
+a = arg[2]
+b = arg[3]
+console.log(out)              // 8 44444
+c = (a > b) ? a  : b          // !!!!!!!! 
+console.log(c)               // !!! 8 !!!
+console.log(typeof a)        // string
+console.log(typeof b)        // string
+```
+
+```node
+// node app.js 8 44444
+a = +arg[2]
+b = +arg[3]
+console.log(typeof a)       // number
+console.log(typeof b)       // number
+c = (a > b) ? a : b   
+console.log(c)              // 44444
+```
 
 
 
