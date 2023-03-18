@@ -129,8 +129,8 @@ p a > b ? a : b                   # 44444
 
 a = arg[2]
 b = arg[3]
-console.log(out)              // 8 44444
-c = (a > b) ? a  : b          // !!!!!!!! 
+console.log(out)             // 8 44444
+c = (a > b) ? a  : b         // !!!!!!!! 
 console.log(c)               // !!! 8 !!!
 console.log(typeof a)        // string
 console.log(typeof b)        // string
