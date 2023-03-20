@@ -144,7 +144,6 @@ console.log(typeof a)       // number
 console.log(typeof b)       // number
 c = (a > b) ? a : b   
 console.log(c)              // 44444
-
 ```
 
 
