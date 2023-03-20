@@ -1,4 +1,4 @@
-﻿#Ruby vs Node.js
+#Ruby vs Node.js
 ____
 
 ##ARGV
